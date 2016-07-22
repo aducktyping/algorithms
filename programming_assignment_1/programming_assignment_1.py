@@ -38,4 +38,4 @@ if __name__ == '__main__':
         data = f.read()
     a = [int(x) for x in data.strip().split('\n')]
     count = count_inversions(a)
-    print(count)
+    print(count)  # prints '2407905288'
